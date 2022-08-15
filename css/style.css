@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+color: black;
+}
+@font-face {
+src: url(../fonts/Gilroy-Bold.ttf);
+font-family: "Gilroy Bold";
+}
+header{
+width: 100%;
+height: 88px;
+border-bottom:1px solid #828282 ;
+}
+.header-menu{
+display: flex;
+justify-content: space-around;
+}
+.header-menu__link{
+font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+margin-top: 33px;
+color: #828282;
+}
+.header-menu__link:hover{
+font-family: 'Gilroy-Bold';
+font-size: 18px;
+line-height: 22px;
+margin-top: 33px;
+transition-duration: 0.5s;
+color: #070707;
+}
+.main-logo{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.main-name__title{
+font-family: 'Gilroy-Bold';
+font-size: 47.3392px;
+line-height: 59px;
+margin-top: 40px;
+}
+.main-info__text{
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 22px;
+margin-top: 95px;
+}
+.main-lang{
+margin: 66px 0 0 0;
+}
+.main-lang__link{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
